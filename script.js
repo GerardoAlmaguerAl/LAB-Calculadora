@@ -7,7 +7,7 @@ function sum(a,b)
   let num2 = parseFloat(b)
   return num1 + num2;
 }
-//Function to performsubtraction, multiplication and division
+//Function to perform subtraction, 
 
 function subtract(a,b)
 {
@@ -15,14 +15,14 @@ function subtract(a,b)
   let num2 = parseFloat(b)
   return num1 - num2;
 }
-
+//Function to perform multiplication 
 function multiply(a,b)
 {
   let num1 = parseFloat(a)
   let num2 = parseFloat(b)
   return num1 * num2;
 }
-
+// Function to perform division
 function divide(a,b)
 {
   let num1 = parseFloat(a)
@@ -33,3 +33,9 @@ function divide(a,b)
   }
   return a / b; 
 }
+
+// Test cases
+let resultado = subtract(5,2)
+let resultado2 = divide("2","0")
+console.log(resultado)
+console.log(resultado2)
