@@ -1,5 +1,3 @@
-//Javascript code for a Basic FUnctions of a Calculator
-
 //Function to perform addition
 function sum(a,b)
 {
@@ -35,7 +33,7 @@ function divide(a,b)
 }
 
 // Test cases
-let resultado = subtract(5,2)
-let resultado2 = divide("2","0")
-console.log(resultado)
-console.log(resultado2)
+//let resultado = subtract(5,2)
+//let resultado2 = divide("2","0")
+//console.log(resultado)
+//console.log(resultado2)
